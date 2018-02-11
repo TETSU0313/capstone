@@ -42,7 +42,6 @@ header .header-content {
   align-items: center;
   flex-flow: row;
   padding: 32px 24px;
-  background-color: grey;
 }
 .banner {
   width: 60%;
@@ -95,6 +94,7 @@ padding-right: 24px;
   margin-bottom: 0;
   padding-bottom: 0;
   padding-top: 113px;
+
 }
 /* NOTE: Container2, Stack2 */
 .stack2 {
@@ -121,7 +121,7 @@ padding-right: 24px;
 }
 .stack2 img {
   width: 35%;
-  height: auto;
+  height: 100%;
   padding-right: 16px;
 }
 .stack2 a {
@@ -135,7 +135,6 @@ padding-right: 24px;
   padding-top: 32px;
   padding-left: 72px;
   padding-right: 72px;
-  background-color: #F8F4FF;
 }
 .container3 h2 {
   margin: 0;
@@ -155,7 +154,6 @@ flex-flow: column;
 width: 30%;
 height: auto;
 margin-bottom: 24px;
-background-color: white;
 }
 .columns img {
   width: 100%;
@@ -207,7 +205,7 @@ video {
 }
 .fisma-img , .city-img {
   width: 35%;
-  height: auto;
+  height: 50%;
   margin: 16px 16px;
 }
 .row4 , .row5 {
@@ -225,8 +223,13 @@ footer {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+  border-top: 1px solid grey;
 }
 .copyright {
   margin-top: 16px;
   margin-left: 24px;
+}
+.terms-privacy {
+  margin-top: 16px;
+  margin-right: 24px;
 }

@@ -1,0 +1,232 @@
+html {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+body {
+  display: block;
+}
+/*header*/
+header .header-content {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  width: 100%
+}
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  padding-left: 24px;
+  height: 32px;
+}
+.header-right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row;
+  list-style-type: none;
+  padding-right: 24px;
+}
+.header-right li {
+  padding: 8px;
+}
+/*body*/
+
+/*c NOTE: Container1*/
+.container1 {
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  padding: 32px 24px;
+  background-color: grey;
+}
+.banner {
+  width: 60%;
+  height: auto;
+  padding-right: 12px;
+}
+.text1 {
+  padding-left: 24px;
+}
+.button1 {
+  text-align: center;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-decoration: none;
+}
+
+/* NOTE: Container2 */
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  padding-left: 24px;
+}
+/* NOTE: Container2, Stack1 */
+.stack1 {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  width: 60%;
+  height: auto;
+}
+.text2 {
+  display: flex;
+  justify-content: space-;
+  flex-flow: column;
+  padding-right: 24px;
+}
+.text2 h1 {
+  padding-bottom: 24px;
+}
+.camp-img {
+padding-right: 24px;
+}
+.stack1 h4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 113px;
+}
+/* NOTE: Container2, Stack2 */
+.stack2 {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  height: auto;
+}
+.row1 , .row2 , .row3 {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row;
+  padding: 16px;
+  height: auto;
+}
+.row-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column;
+  width: 65%;
+  height: auto;
+}
+.stack2 img {
+  width: 35%;
+  height: auto;
+  padding-right: 16px;
+}
+.stack2 a {
+  text-decoration: none;
+}
+/* NOTE: Container3 */
+.container3 {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding-top: 32px;
+  padding-left: 72px;
+  padding-right: 72px;
+  background-color: #F8F4FF;
+}
+.container3 h2 {
+  margin: 0;
+}
+/* NOTE: Columns */
+.columns {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin-top: 32px;
+}
+.column-stack {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-flow: column;
+width: 30%;
+height: auto;
+margin-bottom: 24px;
+background-color: white;
+}
+.columns img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+.column-stack h3 , .column-stack p {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  margin-left: 0;
+}
+/* NOTE: Container4 */
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container4 h2 {
+margin-top: 32px;
+}
+.sub-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row;
+}
+.row-stack1 {
+  width: 60%;
+  margin-left: 24px;
+  margin-right: 24px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+video {
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
+.row-stack1 h3 {
+  margin-bottom: 8px;
+}
+.row-stack2 {
+  width: 40%;
+
+}
+.fisma-img , .city-img {
+  width: 35%;
+  height: auto;
+  margin: 16px 16px;
+}
+.row4 , .row5 {
+  display: flex;
+  flex-flow: row;
+}
+.text4 {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 65%;
+}
+footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.copyright {
+  margin-top: 16px;
+  margin-left: 24px;
+}
